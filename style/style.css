@@ -1,13 +1,27 @@
 /* shaird style */
-.font_color{
+.font_color {
   color: #727D73;
 }
-.btn_styel{
+
+.btn_styel {
   background-color: #006A50;
   color: #ffff;
   border: none;
   border-radius: 10px;
   padding: 8px 11px;
+}
+.btn_styel:hover{
+  background-color: darkmagenta;
+  color: #ffff;
+}
+.bg{
+  background-color: #006a5051;
+}
+.bg_1{
+  background-color: brown;
+}
+.bg_2{
+  background-color: chartreuse;
 }
 
 
@@ -90,6 +104,7 @@
   border: none;
   border-radius: 8px;
 }
+
 /* banner section end*/
 
 /* pillars section start*/
@@ -100,44 +115,50 @@
   font-size: 40px;
   font-weight: bold;
 }
+
 .inovashon {
   display: flex;
   margin-left: 160px;
   margin-right: 160px;
-  width:1216px ;
+  width: 1216px;
   height: 324px;
   gap: 10px;
 }
 
-.card-container{
+.card-container {
   padding: 25px;
   box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.615);
   border-radius: 10px;
   width: 294px;
   height: 244px;
 }
+
 /* pillars section  end*/
 
 /* vision section start */
-.vision{
+.vision {
   width: 1216px;
   height: 765px;
   margin-left: 160px;
   margin-right: 160px;
 }
-.vision_title{
+
+.vision_title {
   font-size: 40px;
   font-weight: bold;
   margin-bottom: 24px;
 }
-.vision_discription{
+
+.vision_discription {
   font-size: 16px;
 }
-.vision_card_container{
+
+.vision_card_container {
   display: flex;
   gap: 24px;
 }
-.card_1{
+
+.card_1 {
   padding: 25px;
   box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.615);
   border-radius: 10px;
@@ -145,7 +166,8 @@
   height: 300px;
   background-color: rgba(86, 51, 214, 0.13);
 }
-.card_2{
+
+.card_2 {
   padding: 25px;
   box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.615);
   border-radius: 10px;
@@ -153,7 +175,8 @@
   height: 300px;
   background-color: rgba(36, 242, 87, 0.155);
 }
-.card_3{
+
+.card_3 {
   padding: 25px;
   box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.615);
   border-radius: 10px;
@@ -161,30 +184,36 @@
   height: 300px;
   background-color: rgba(216, 46, 46, 0.141);
 }
+
 /* vision section end */
 
-.section_444{
+.section_444 {
   width: 1216px;
   height: 256px;
   margin: -200px 160px 32px 160px;
   background-color: rgba(216, 188, 147, 0.727);
   border-radius: 10px;
-  
+
 }
-.img_4444{
+
+.img_4444 {
   background-image: url('../assets/quote-bg.png');
   width: 64px;
   height: 64px;
   padding: 24px 0px 0px 25px;
   background-repeat: no-repeat;
 }
- /* recent news section*/
- .recent_news{
-  margin: 32px 160px 32px 160px;
- }
 
- .bangladesh_satellite{
- 
+/* recent news section*/
+.recent_news {
+  margin: 32px 160px 32px 160px;
+}
+.recent_news h3{
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.bangladesh_satellite {
   background-color: rgba(14, 200, 138, 0.127);
   width: 1216px;
   height: 402px;
@@ -192,36 +221,92 @@
   border-radius: 10px;
   align-items: center;
 
- }
- .satelite_img{
+}
+
+.satelite_img {
   border-radius: 20px;
-  margin: 48px 32px 48px 48px;
+  margin: 48px 48px 48px 48px;
   height: 290px;
- }
- .bangladesh_discription{
-  margin: 56px 38px 56px 0px;
+}
+
+.bangladesh_discription {
+  margin: 56px 38px 56px 48px;
   height: 290px;
- }
- .bangladesh_discription h3{
+}
+
+.bangladesh_discription h3 {
   margin: 0;
   font-size: 32px;
   font-weight: bold;
   margin-bottom: 12px;
- }
- .al_jazeera{
+}
+
+.al_jazeera {
   margin: 12px 0 12px 0;
- }
-.bangladesh_discription data{
+}
+
+.bangladesh_discription data {
   margin-right: 20px;
 }
-.bangladesh_satellite_discription{
+
+.bangladesh_satellite_discription {
   margin-bottom: 52px;
 }
-.bangladesh_satellite_2{
+
+.bangladesh_satellite_2 {
   background-color: rgba(14, 200, 138, 0.127);
   width: 1216px;
   height: 402px;
   display: flex;
   border-radius: 10px;
   align-items: center;
+  margin-top: 24px;
 }
+/* recent news section end*/
+/* git start */
+.donate_section{
+  margin: 82px 160px 20px 160px;
+  text-align: center;
+}
+.donate_section h3{
+  font-size: 40px;
+  font-weight: bold;
+}
+.donate_section h3 p{
+  font-size: 16px;
+  margin-top: 0;
+}
+.donate_today{
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+.donate_amiint{
+  padding: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.534);
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 40px;
+  margin: 25px 0 25px 0;
+}
+.donate_amiint:hover{
+  background-color: rgb(239, 19, 56);
+  color: #ffff;
+}
+.donate_section_input{
+  padding: 15px 378px 15px 378px ;
+  border-radius: 15px;
+  border:.5px solid rgba(0, 0, 0, 0.204);
+  margin-bottom: 25px;
+}
+/*--Donate section end--*/
+/* Subscribe section start */
+.subscribe{
+  width: 1216px;
+  height: 395px;
+  background-color: #006a5061;
+  margin: 80px 160px 80px 160px;
+  border-radius: 15px;
+  text-align: center;
+}
+
