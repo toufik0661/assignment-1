@@ -24,14 +24,11 @@
   background-color: chartreuse;
 }
 
-
 /* nav bar start */
 .nav_bar {
   display: flex;
   justify-content: space-between;
-
 }
-
 .sign_in li {
   list-style: none;
   padding: 10px 25px;
@@ -40,7 +37,7 @@
 }
 
 .sign_in {
-  margin: 24px 160px 24px 0px;
+  margin: 24px 129px 24px 0px;
 }
 
 .sign_in li a {
@@ -54,8 +51,13 @@
   font-weight: 700;
   margin: 31px 0px 31px 160px;
 }
+.explore_bangladesh_btn:hover{
+  background-color: crimson;
+  color: #ffff;
+}
 
 /* nav bar end */
+
 /* banner section start */
 .banner {
   background-color: #006a5061;
@@ -87,7 +89,6 @@
   font-size: 50px;
   font-weight: 800;
   margin: -16px 0px 24px 0px;
-
 }
 
 .banner_img {
@@ -204,7 +205,7 @@
   background-repeat: no-repeat;
 }
 
-/* recent news section*/
+/* recent news section start*/
 .recent_news {
   margin: 32px 160px 32px 160px;
 }
@@ -263,7 +264,8 @@
   margin-top: 24px;
 }
 /* recent news section end*/
-/* git start */
+
+/* Donate section start */
 .donate_section{
   margin: 82px 160px 20px 160px;
   text-align: center;
@@ -300,6 +302,7 @@
   margin-bottom: 25px;
 }
 /*--Donate section end--*/
+
 /* Subscribe section start */
 .subscribe{
   width: 1216px;
@@ -307,6 +310,42 @@
   background-color: #006a5061;
   margin: 80px 160px 80px 160px;
   border-radius: 15px;
-  text-align: center;
+  
+ 
 }
 
+.subscribe_discription{
+  width: 770px;
+  height: 112px;
+  text-align: center;
+  /* margin: 80px 275px 80px 265px; */
+  padding: 80px 223px 80px 223px;
+
+}
+
+.subscribe h3{
+  font-size: 40px;
+  font-weight: bold;
+}
+/* Subscribe section end */
+
+/* footer section start */
+.footer_section{
+  text-align: center;
+}
+.footer_section h3{
+font-size: 40px;
+font-weight: bold;
+margin-top: 130px;
+}
+.footer_img{
+ margin-top: 64px;
+ margin-bottom: 50px;
+ 
+}
+
+.footer_img_pad{
+  padding:10px ;
+
+}
+/* footer section end */
